@@ -8,6 +8,7 @@ buildscript {
         google()
         mavenLocal()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath 'org.aspectj:aspectjtools:1.9.6'
@@ -29,4 +30,5 @@ repositories {
     google()
     mavenLocal()
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
