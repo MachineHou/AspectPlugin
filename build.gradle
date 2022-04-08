@@ -5,10 +5,10 @@ group = 'com.github.myhoujie'
 
 buildscript {
     repositories {
+        maven { url "https://jitpack.io" }
         google()
         mavenLocal()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath 'org.aspectj:aspectjtools:1.9.6'
@@ -27,8 +27,8 @@ dependencies {
 }
 
 repositories {
+    maven { url 'https://jitpack.io' }
     google()
     mavenLocal()
     mavenCentral()
-    maven { url 'https://jitpack.io' }
 }
